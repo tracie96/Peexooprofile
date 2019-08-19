@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>.tooltip-inner {
+    background-color: #00acd6 !important;
+    /*!important is not necessary if you place custom.css at the end of your css calls. For the purpose of this demo, it seems to be required in SO snippet*/
+    color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #00acd6;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #00acd6;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #00acd6;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: #00acd6;
+}
+</style>
+<body>
+
+<div style="padding:50px;">
+  <span class="fa-stack fa-lg" data-toggle="tooltip" data-placement="right" title="custom colored tooltip">hover over me
+</span>
+</div>
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!--tether-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<!--Bootstrap-->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        //initializing tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+</body>
+</html>
