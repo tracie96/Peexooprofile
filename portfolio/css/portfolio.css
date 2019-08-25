@@ -1,0 +1,360 @@
+.portfolio {
+  color: #4D4D4D;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+
+
+.shape-copy {
+  color: #FFB603;
+  padding: 300px;
+  font-size: 50px;
+  width: 56px;
+  height: 44px;
+  position: absolute;
+  left: 526px;
+  right: 526px;
+  /*top: 194px;*/
+  /*bottom: 394px;*/
+}
+
+
+.your-portfolio-is-cu {
+
+  padding-top:  380px;
+  position: absolute;
+  left: 656px;
+  right: 526px;
+  color: #4D4D4D;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  width: 380px;
+  text-align: center;
+}
+
+.rectangle {
+  background-color: #FFB603;
+  border-radius: 5px;
+  width: 228px;
+  height: 43px;
+}
+
+
+.add-a-new-image {
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  width: 190px;
+  text-align: center;
+}
+
+
+.rectangle_modal {
+  background-color: #FFFDF7;
+  border-radius: 5px;
+  width: 669px;
+  height: 400px;
+}
+
+.upload-portfolio-ima {
+  color: #4D4D4D;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  width: 264px;
+  text-align: left;
+  margin-bottom:0px;
+  margin-top:45px;
+  margin-left:65px;
+}
+
+
+.portfolio_select {
+  background-color: #FFFFFF;
+  border: 1px solid #D4D4D4;
+  border-radius: 5px;
+  width: 499px;
+  height: 63px;
+  position: absolute;
+  left: 85px;
+  right: 85px;
+  top: 20px
+}
+
+.portfolio_cancel {
+  border: 1px solid #FFB603;
+  border-radius: 5px;
+  color: #FFB603;
+  width: 173px;
+  height: 43px;
+  margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.portfolio_next {
+  background-color: #FFB603;
+  border-radius: 5px;
+  color: #FFFFFF;
+  width: 173px;
+  height: 43px;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.modal_back_btn {
+  background-color: #FFB603;
+  border-radius: 5px;
+  text-align: center;
+  width: 173px;
+  height: 43px;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-bottom: 100px;
+  }
+
+
+  .drag-and-drop-images {
+  color: #4D4D4D;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 274px;
+  text-align: center;
+}
+
+
+/* FOR WEDDING SECTION*/
+
+/*.oval {
+  background-color: #FFFFFF;
+  border: 2px solid #FFC331;
+  border-radius: 100%;
+  width: 17px;
+  height: 17px;
+
+  margin-top: 20px;
+
+  margin-left: 20px;
+}
+*/
+
+.wedding {
+  color: #4D4D4D;
+  font-family: Lora;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+
+.wedding_btn {
+  background-color: #FFB603;
+  border-radius: 5px;
+  width: 171px;
+  height: 43px;
+  float: right;
+  margin-top: 30px;
+}
+
+.alert_rectangle {
+  margin: 0px;
+  padding: 0px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(161, 161, 161, 0.5);
+  width: 1118px;
+  height: 89px;
+}
+
+
+.alert_rect_icon {
+  color: #4D4D4D;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400px;
+  line-height: 17px;
+  /*width: 502px;*/
+  padding: 35px;
+  text-align: right;
+  }
+
+  .mc-lively-dj-con-yemi-49 {
+    width: 335px;
+    height: 223px;
+  }
+
+  .upload_rectangle {
+    background-color: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    /*width: 200px;
+    height: 200px;*/
+  }
+
+  .uploading {
+    color: #4D4D4D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 107px;
+    text-align: center;
+    margin-top: 50px ;
+    margin-left: 80px;
+  }
+
+  .prog{
+    color: #4D4D4D;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 107px;
+    text-align: center;
+    margin-left: 80px ;
+  }
+
+  .can_rectangle {
+    background-color: #FFB603;
+    border-radius: 5px;
+    width: 175px;
+    height: 43px;
+    text-align: center;
+    margin-left: 60px ;
+  }
+  .list-group {
+    position: absolute;
+    bottom: 10px;
+    
+  } 
+
+
+  .empty_rectangle {
+    background-color: #FFB603;
+    width: 224px;
+    height: 38px;
+  }
+
+
+  .empty_icon {
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    width: 109px;
+    text-align: left;
+  }
+
+
+  .portfolio_cancel_wed {
+    border: 1px solid #FFB603;
+    border-radius: 5px;
+    color: #FFB603;
+    width: 173px;
+    height: 43px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+
+  .portfolio_delete {
+    background-color: #FFB603;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 173px;
+    height: 43px;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-bottom: 0px;
+  }
+
+
+  .rectangle_modal_empty {
+    background-color: #FFFDF7;
+    border-radius: 5px;
+    width: 669px;
+    height: 300px;
+  }
+
+
+
+  .rectangle_modal_move {
+    background-color: #FFFDF7;
+    border-radius: 5px;
+    width: 669px;
+    height: 330px;
+  }
+
+
+  .share_image {
+    color: #4D4D4D;
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 171px;
+    text-align: left;
+  }
+
+
+
+  .facebook_icon {
+   /* border: 1px solid #FFB603;*/
+    /*border-radius: 5px;*/
+    color: #3B5998;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    /*background-color: #3B5998;*/
+  }
+
+  .twitter_icon {
+   /* border: 1px solid #1DA1F2;
+    border-radius: 5px;*/
+    color: #1DA1F2;
+    font-size: 50px;
+    margin-top: 30px;
+    /*margin-left: 50px;*/
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+.rectangle_modal_share {
+    background-color: #FFFDF7;
+    border-radius: 5px;
+    width: 669px;
+    height: 250px;
+  }
+.card img{
+  height: 100%;
+  border-radius:3px
+}
+.card{
+  height: 50%;
+}
