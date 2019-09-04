@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Peexoo</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
+  <!-- Custom fonts for this template-->
+
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">    <link href="css/modal.css" rel="stylesheet">
+
+  <link href="css/availability.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-dark accordion align-items-center " id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center pt-4  " href="index.html">
+        <div class="sidebar-brand-icon">
+          <img class="logo-style" src="img/Peexoo_logo.png">
+        </div>
+
+      </a>
+      <br>
+
+
+
+
+      <!-- <li class="nav-item active pt-4 pl-4"> -->
+        <li class="nav-item sidebar-active pl-2">
+          <a class="nav-link" href="index.html">
+            <i style="color:#FFB603;" class="far fa-fw fa-user"></i>
+            <span style="color:#FFB603;">Dashboard</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-camera-retro" style="color: #FFFFFF"></i>
+            <span>Profile</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+          <a class="nav-link" href="index.html">
+            <i class="far fa-fw fa-images" style="color: #FFFFFF"></i>
+            <span>Pricing Package</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-hdd" style="color: #FFFFFF"></i>
+            <span>Availability</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+          <a class="nav-link" href="index.html">
+            <i class="far fa-calendar-check" style="color: #FFFFFF"></i>
+            <span>Bookings</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-briefcase" style="color: #FFFFFF"></i>
+            <span>Portfolio</span></a>
+        </li>
+        <li class="nav-item  pt-3 pl-4">
+              <a class="nav-link" href="index.html">
+                      <i class="far fa-images" style="color: #FFFFFF"></i>
+         <span>Albums</span></a>
+      </li>
+      <li class="nav-item  pt-3 pl-4">
+              <a class="nav-link" href="index.html">
+                      <i class="fas fa-sign-in-alt" style="color: #FFFFFF"></i>
+                  <span>Subscriptions</span></a>
+            </li>
+            <li class="nav-item  pt-3 pl-4">
+                  <a class="nav-link" href="index.html">
+                          <i class="fas fa-comments-dollar" style="color: #FFFFFF"></i>
+                   <span>Payments</span></a>
+                </li>
+                <li class="nav-item  pt-3 pl-4">
+                      <a class="nav-link" href="index.html">
+                        <i class="fas fa-cogs" style="color: #FFFFFF"></i>
+                        <span>Settings</span></a>
+                    </li>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column " style="padding-bottom:100px">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item ">
+              <a class="nav-link nav-text" href="#">Explore Photos</a>
+            </li>
+
+
+            <li class="nav-item ">
+              <a class="nav-link nav-text" href="#">Find a Photographer</a>
+            </li>
+
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in"
+                aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                      aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="far fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow ">
+              <a class="nav-link dropdown-toggle" href="#" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-newspaper fa-fw"></i>
+
+              </a>
+            </li>
+            <!-- Nav Item - Alerts -->
+
+
+            <li class="nav-item dropdown no-arrow ">
+              <a class="nav-link dropdown-toggle" href="#" aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-bell fa-fw"></i>
+
+              </a>
+
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow ">
+              <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="far fa-envelope fa-fw"></i>
+              </a>
+
+            </li>
+
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle" src="img/male_avatar.jpg">
+                <span class="mr-2 d-none d-lg-inline pl-2 nav-text font-weight-bold"> Oghenetega <span class=""></span><i
+                    class="fas fa-angle-down fa-fw"></i></span>
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="far fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+       
+
+    <!-- Begin Page Content -->
+<!-- Your code goes in here     -->
+
+<div class="container-fluid">
+
+  <div>
+        <i class="fas fa-arrow-circle-left" style="color: #B58000;"></i>
+        <p class="go-back">Go back</p>
+        <h2 class="head mb-3" >Availability</h2>
+   
+
+  </div>
+  <div class="box">
+      <div class="boxtext" class="mt-4">
+          <p class="alert-p-b mb-0 "><b>July 10th, 2019</b><a href="#exampleModal" data-toggle="modal" data-target="#exampleModal"><span class="sp"><img src="img/edit.svg" width="1.5%" height="1%" class="ml-3">Edit</span></a><a href="#exampleModalconfdel" data-toggle="modal" data-target="#exampleModalconfdel"><span class="sp"><img src="img/garbage.svg" width="1.5%" height="1%" class="ml-3">Delete</span></a></p>
+          <p class="alert-p  mt-2">Mrs. Steven daughter’s wedding photography</p>
+          <div class="small-box mt-4">
+                <p class="mt-1">PLATFORM</p>
+                <p class="mt-1">Added</p>
+
+            </div>
+      </div>
+
+     
+  </div>
+
+</div>
+
+<section>
+        <!-- Button trigger modal -->
+                <!-- Modal -->
+                <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true">
+                        <div class="custom_modal_content hiding_images" style="width: 450px">
+                  
+                  
+                                  <div class="instruction_text create_shoot">
+                                 
+                                      <h3 class="modal-head ml-3 mb-4" >
+                                             Update Schedule
+                                      </h3>
+                                  </div>
+                  
+                                  <div class="modal_input">
+                  
+                                      <input type="text" name="" id="" placeholder="Fejiro Birthday Shoot"><br>
+                                      <input type="text" name="" id="" placeholder="18/07/19" class="mt-2">
+
+                                  </div>
+                                  <div class="shoot_type_option text-left default_text" style="margin-top: -7%">
+                                    <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>                               
+                                  </div>
+                               
+                  
+                                <div class="btns">
+                                  <div class="outline_btn">
+                                    <button>
+                                      <p class="btntxt mb-3">Cancel</p>
+                                    </button>
+                                  </div>
+
+                                  <div class="normal_btn">
+                                    <button type="button" data-dismiss="modal" data-target="#exampleModal2" data-toggle="modal">
+                                     <p class="btntxt pw mb-3">Update Schedule</p> 
+                                    </button>
+                                  </div>
+                                </div> 
+                  
+                            </div>
+                </div>
+</section>
+<section>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" data-toggle="modal" 
+  mrole="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content" style="height: 220px;width:550px;">
+      <div class="modal-header" style="border: 0px">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body" style="margin-top: -5%">
+          <p style="margin-left: 45%"><i class="far fa-check-circle fa-4x" style="color: #4BB543"></i>
+          </p> 
+          <p class="success-msg">Schedule Updated Successfully.</p> 
+          <button type="button" class="btn btn-primary modal_back_btn" onclick="myFunction()" style="width: 150px;height: 40px;margin-left: 35%;font-size: 14px;" data-dismiss="modal" >
+                  Done
+          </button>
+      </div>
+      
+  </div>
+  </div>
+</div>
+</section>
+<section>
+  <!-- Button trigger modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalconfdel" tabindex="-1" role="dialog" aria-labelledby="exampleModalconfdel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content" style="height: 200px;width:500px;">
+                  <div class="modal-header" style="border: 0px">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                          <p class="success-msg">You are about to free up $data, booked for $event.</p> 
+
+                     
+                              <div class="group-btn">
+                                      <button type="button" class="btn outline_btn" style="border: 1px solid #ffb603"><p style="color: #FFB603">Go Back</p></button>
+                                      <button type="button" class="btn btn-primary"  data-target="#exampleModaldel" data-dismiss="modal"data-toggle="modal"><p>Delete Schedule</p></button>
+                              </div>  
+                  </div>
+                  
+              </div>
+              </div>
+          </div>
+</section>
+<section>
+  <div class="modal fade" id="exampleModaldel" tabindex="-1" data-toggle="modal" mrole="dialog" aria-labelledby="exampleModaldel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+  <div class="modal-content" style="height: 220px;width:550px;">
+      <div class="modal-header" style="border: 0px">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </button>
+      </div>
+      <div class="modal-body" style="margin-top: -5%">
+          <p style="margin-left: 45%"><i class="far fa-check-circle fa-4x" style="color: #4BB543"></i>
+          </p> 
+          <p class="success-msg">Schedule removed successfully.</p> 
+          <button type="button" class="btn btn-primary modal_back_btn" onclick="myFunction()" style="width: 150px;height: 40px;margin-left: 35%;font-size: 14px;" data-dismiss="modal" >
+                  Done
+          </button>
+      </div>
+      
+  </div>
+  </div>
+</div>
+</section>
+<section>
+        <!-- End of Main Content -->
+  </div>
+</div>
+  <!-- End of Page Wrapper -->
+</div>
+
+<!-- Another modal -->
+
+
+
+<!-- end of another modal -->
+  <!-- Footer -->
+
+  <footer>
+    <div class='footer-big'>
+
+      <div class='container' >
+        <div class='row justify-content-between'>
+
+          <div class='col-4'>
+            <div class='footer-widget'>
+              <div class='footer-menu footer-menu--1'>
+                <h4 class='footer-widget-title'>Quick Links</h4>
+                <ul>
+                  <li>
+                    <a href='#'>Find a photographer</a>
+                  </li>
+                  <li>
+                    <a href='#'>Find my photos</a>
+                  </li>
+                  <li>
+                    <a href='#'>Peexoomemories</a>
+                  </li>
+                  <li>
+                    <a href='#'>Become a photographer</a>
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class='col-4'>
+            <div class='footer-widget'>
+              <div class='footer-menu footer-menu--1'>
+                <h4 class='footer-widget-title'>Company</h4>
+                <ul>
+                  <li>
+                    <a href='#'>About Us</a>
+                  </li>
+                  <li>
+                    <a href='#'>FAQs</a>
+                  </li>
+                  <li>
+                    <a href='#'>Pricing</a>
+                  </li>
+                  <li>
+                    <a href='#'>Careers</a>
+                  </li>
+                  <li>
+                    <a href='#'>Help & Support</a>
+                  </li>
+                  <li>
+                    <a href='#'>Terms of Service</a>
+                  </li>
+                  <li>
+                    <a href='#'>Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class='col-4'>
+            <div class='footer-widget'>
+              <div class='footer-menu footer-menu--1'>
+                <h4 class='footer-widget-title'>Connect with Us</h4>
+                <ul>
+                  <li>
+                    <a href='#'>5A, Awudu Egheda</a>
+                  </li>
+                  <li>
+                    <a href='#'>Lekki, Lagos.</a>
+                  </li>
+                  <li>
+                    <a href='#'>+234 8003229932</a>
+                  </li>
+                  <li>
+                    <a href='#'>customer.service@peexoo.ai</a>
+                  </li>
+                  <li>
+                    <a><img height="20px" width="20px" src="img/whatsapp-icon.png"><img></a>
+                    <a><img height="20px" width="20px" src="img/facebook-icon.png"><img></a>
+                    <a><img height="20px" width="20px" src="img/twitter-icon.png"><img></a>
+                    <a><img height="20px" width="20px" src="img/instagram-icon.png"><img></a>               
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class='copyright-text text-center bg-custom '>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <div class='copyright-text primary-color'>
+              <p class="pt-2">
+                © 2019
+                <a href='#' style="color:#FFFFFF"> Peexoo Nigeria Limited
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.js"></script>
+
+
+</body>
+
+</html>
